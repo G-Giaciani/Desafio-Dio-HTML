@@ -1,6 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <head><title>História da Web</title></head>
+    <head><title>História da Web</title>
+        <!--Torna o site responsívo para dispositivos móveis, deixando o zoom incial em 1 padrão, e a largura da tela equivalente a largura do dispositivo-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Utilizando Style para tornar a aparencia do site mais agradável
+        Aqui foi definida a fonte de todo o Body para "arial" e adiciona uma margem em todos os lados do corpo
+        todos os H1, h2 e h3 da pagina teram a cor escura #333
+        o paragrado tem a altura da linha em 1,6 vezes o padrão, e foi adicionado uma margem inferior de 10px
+        -->
+        <style>
+            body {
+                font-family: Arial;
+                margin: 20px;
+            }
+            h1 {
+                color: #333;
+            }
+            h2 {
+                color: #333;
+            }
+            h3 {
+                color: #333;
+            }
+            p {
+                line-height: 1.6;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
     <body>
         <!--Criando o Título principal da Matéria-->
         <h1>Entendendo a História da Web</h1>
@@ -37,21 +64,21 @@
         <p style="font-size:10"> Para entender como a Web veio a se tornar o que ela é hoje, primeiro devemos entender sobre os primeiros computadores, desde seu surgimento e evolução, até a teorização da internet e então sua implementação no mundo atual.
          Após isso é de grande importância compreender o conceito e funcionamento das comunicações dentro da internet e, por fim, aprender sobre as linguagens que possibilitam essa comunicação.</p>
          <h3 id="Os primeiros Computadores">Os primeiros Computadores</h3>
-        <p style="font-size: 10;">O computador atual passou por diversas transformações ao longo do tempo, e para o melhor entendimento de sua história, ela foi dividida em quatro partes, baseadas em seus sistemas e ferramentas utilizadas.</p>
+        <p>O computador atual passou por diversas transformações ao longo do tempo, e para o melhor entendimento de sua história, ela foi dividida em quatro partes, baseadas em seus sistemas e ferramentas utilizadas.</p>
         
         <h3>1ª Geração</h3>
-        <p style="font-size: 10;">O primeiro computador construído, hoje chamado de <strong>Harvard Mark I</strong> foi projetado no ano de 1930 pelo estudante Howard Aiken e, então, montado em 1944, em uma parceria com a IBM durante a Segunda Guerra Mundial.
+        <p>O primeiro computador construído, hoje chamado de <strong>Harvard Mark I</strong> foi projetado no ano de 1930 pelo estudante Howard Aiken e, então, montado em 1944, em uma parceria com a IBM durante a Segunda Guerra Mundial.
         <br/>Pesando 5 toneladas e com um grande porte como mostrado na imagem abaixo.</p>
         <figure>
             <img src="https://cdn.britannica.com/93/23593-050-99D22EC5/Harvard-Mark-I-Howard-Aiken-ballistics-calculations-1943.jpg" alt="Mark I" width="500">
             <figcaption>Computador Mark I.</figcaption>
         </figure>
         <br/>
-        <p style="font-size: 10;">O Mark I então foi seguido pela criação do <strong>COLOSSUS</strong>, criado na Alemanhã, e pelo <Strong>ENIAC</Strong>, criado nos EUA.
+        <p>O Mark I então foi seguido pela criação do <strong>COLOSSUS</strong>, criado na Alemanhã, e pelo <Strong>ENIAC</Strong>, criado nos EUA.
         <br/>Como curiosidade, também nessa época surgiu o termo "BUG" por conta de insetos que pousavam nessas máquinas e as danificavam.</p>
             
         <h3>2ª Geração</h3>
-        <p style="font-size: 10;">Essa geração foi marcada pela transição das válvulas útilizadas em computadores por transistores, o que diminuiu drásticamente o tamanho de um computador.
+        <p>Essa geração foi marcada pela transição das válvulas útilizadas em computadores por transistores, o que diminuiu drásticamente o tamanho de um computador.
         <br/>Nessa época a utilização dos computadores começou a se tornar de uso comercial, não apenas militar.</p>
         <figure>
             <img src="https://historiadainformatica2013.weebly.com/uploads/2/4/4/7/24470693/4656358_orig.jpg" alt="Computador de segunda geração">
@@ -59,14 +86,14 @@
         </figure>
 
         <h3>3ª Geração</h3>
-        <p style="font-size: 10;">Essa geração foi marcada pela utilização de Circuitos Integrados, diminuindo ainda mais o tamanho de um computador e aumentando sua capacidade de processamento. Marcando assim o início da criação de computadores pessoais.</p>
+        <p>Essa geração foi marcada pela utilização de Circuitos Integrados, diminuindo ainda mais o tamanho de um computador e aumentando sua capacidade de processamento. Marcando assim o início da criação de computadores pessoais.</p>
         <figure>
             <img src="https://static.todamateria.com.br/upload/te/rc/terceirageracao.jpg?auto_optimize=low" alt="Computador de terceira geração">
             <figcaption>Computador de Terceira Geração.</figcaption>
         </figure>
 
         <h3>4ª Geração</h3>
-        <p style="font-size: 10;">Com o avanço da tecnologia da informação, os computadores encolhem ainda mais, enquanto sua velocidade e capacidade de processamento de dados aumentam. Microprocessadores estão sendo desenvolvidos com um consumo de energia cada vez menor.</p>
+        <p>Com o avanço da tecnologia da informação, os computadores encolhem ainda mais, enquanto sua velocidade e capacidade de processamento de dados aumentam. Microprocessadores estão sendo desenvolvidos com um consumo de energia cada vez menor.</p>
         <figure>
             <img src="https://static.todamateria.com.br/upload/co/mp/computadorquartageracao.jpg?auto_optimize=low" alt="Computador Pessoal">
             <figcaption>Computador da Era Moderna.</figcaption>
@@ -75,14 +102,14 @@
         <br/>
         <h3 id="Como surgiu a internet">Como surgiu a Internet</h3>
         <small><a href="#indice">(Voltar para o índice)</a></small>
-        <p style="font-size: 10;">Criada durante a Guerra Fria, com o intuito de facilitar a troca de informações o Departamento de Defesa dos Estados Unidos, <abbr title="Advanced Research Projects Agency">ARPA</abbr>, criou um sistema de compartilhamento de informações a distância.
+        <p>Criada durante a Guerra Fria, com o intuito de facilitar a troca de informações o Departamento de Defesa dos Estados Unidos, <abbr title="Advanced Research Projects Agency">ARPA</abbr>, criou um sistema de compartilhamento de informações a distância.
         <br/>E no dia 29 de Outubro de 1969 foi estabelecida a primeira conexão entre a Universidade da Califórnia e o Instituto de Pesquisa de Stanford, com a palavra "Login", porém apenas foi recebida a palavra "Lo".</p>
         <figure>
             <img src="https://img.odcdn.com.br/wp-content/uploads/2021/10/arpa.jpeg" alt="Arpanet" width="400">
             <figcaption>Navegação do primeiro email enviado.</figcaption>
         </figure>
             <br/>
-            <p style="font-size: 10;">Já na década de 90, Tim Berners-Lee desenvolveu um navegador ou browser, a World Wide Web, a Rede Mundial de Computadores.</p>
+            <p>Já na década de 90, Tim Berners-Lee desenvolveu um navegador ou browser, a World Wide Web, a Rede Mundial de Computadores.</p>
         <figure>
             <img src="https://files.tecnoblog.net/wp-content/uploads/2017/03/tim-berners-lee-1060x706.jpg" alt="Tim Berners-Lee" width="500">
             <figcaption>Tim Berners-Lee e a World Wide Web.</figcaption>
@@ -90,9 +117,9 @@
 
         <h2 id="Client x Server">Client x Server</h2>
         <small><a href="#indice">(Voltar para o índice)</a></small>
-        <p style="font-size: 10;">Uma estrutura cliente-servidor é um padrão de arquitetura de rede em que um programa, atuando como cliente, requisita um serviço ou recurso a outro programa, o servidor. Esse cliente recebe uma resposta contendo as informações solicitadas, por meio de protocolos de rede, em infraestruturas de TI.</p>
+        <p>Uma estrutura cliente-servidor é um padrão de arquitetura de rede em que um programa, atuando como cliente, requisita um serviço ou recurso a outro programa, o servidor. Esse cliente recebe uma resposta contendo as informações solicitadas, por meio de protocolos de rede, em infraestruturas de TI.</p>
         <h3 id="O que são Clients">O que são Clients</h3>
-        <p style="font-size: 10;">Em uma infraestrutura cliente-servidor, o cliente representa um dispositivo de computação, como desktops, laptops, smartphones, tablets ou aplicativos. Este cliente utiliza protocolos de rede para se conectar aos servidores e solicitar serviços ou recursos específicos, aguardando em seguida a resposta correspondente.</p>
+        <p>Em uma infraestrutura cliente-servidor, o cliente representa um dispositivo de computação, como desktops, laptops, smartphones, tablets ou aplicativos. Este cliente utiliza protocolos de rede para se conectar aos servidores e solicitar serviços ou recursos específicos, aguardando em seguida a resposta correspondente.</p>
         <h3 id="O que são Servers">O que são Servers</h3>
         <p>O servidor é o elemento central do sistema, responsável por disponibilizar os serviços ou recursos requisitados pelos clientes. Esses servidores podem se manifestar de diferentes maneiras: podem ser um hardware dedicado, projetado especificamente para gerenciar e oferecer serviços aos clientes, ou podem ser representados por software que é executado em um servidor de rede existente.</p>
         <figure>
@@ -101,14 +128,14 @@
         </figure>
         <h2 id="Linguagens de Programação">Linguagens de Programação</h2>
         <small><a href="#indice">(Voltar para o índice)</a></small>
-        <p style="font-size: 10;">Agora que entendemos como funciona a comunicação dentre da web, vamos agora explorar o que faz essa comunicação se tornar possível.</p>
+        <p>Agora que entendemos como funciona a comunicação dentre da web, vamos agora explorar o que faz essa comunicação se tornar possível.</p>
         <h3 id="O que são">O que são</h3>
-        <p style="font-size: 10;">Uma linguagem de programação é um conjunto de regras e instruções utilizadas para criar software e realizar tarefas computacionais. Elas fornecem uma maneira padronizada para os programadores expressarem suas intenções e lógica de forma que os computadores possam entender e executar.
+        <p>Uma linguagem de programação é um conjunto de regras e instruções utilizadas para criar software e realizar tarefas computacionais. Elas fornecem uma maneira padronizada para os programadores expressarem suas intenções e lógica de forma que os computadores possam entender e executar.
         <br/>Essas linguagens também podem ser dividas entre Client-Side, que funcionam no aparelho do client, e em Server-side, que funcionam no programa do servidor.</p>
         <h3 id="Client-Side">Client-Side</h3>
-        <p style="font-size: 10;">Elas são utilizadas para controlar o comportamento e a interatividade das páginas web, permitindo a manipulação dinâmica do conteúdo sem a necessidade de recarregar a página inteira. As linguagens client-side mais comuns incluem HTML para estruturação do conteúdo, CSS para estilização visual e JavaScript para interatividade e manipulação dinâmica do conteúdo da página.</p>
+        <p>Elas são utilizadas para controlar o comportamento e a interatividade das páginas web, permitindo a manipulação dinâmica do conteúdo sem a necessidade de recarregar a página inteira. As linguagens client-side mais comuns incluem HTML para estruturação do conteúdo, CSS para estilização visual e JavaScript para interatividade e manipulação dinâmica do conteúdo da página.</p>
         <h3 id="Server-Side">Server-Side</h3>
-        <p style="font-size: 10;">Ao contrário das linguagens client-side, que são executadas no navegador do usuário, as linguagens server-side são responsáveis por processar as requisições dos clientes, acessar bancos de dados, gerar conteúdo dinâmico e retornar resultados para o navegador.
+        <p>Ao contrário das linguagens client-side, que são executadas no navegador do usuário, as linguagens server-side são responsáveis por processar as requisições dos clientes, acessar bancos de dados, gerar conteúdo dinâmico e retornar resultados para o navegador.
             As linguagens server-side são essenciais para criar sites e aplicativos web dinâmicos, pois permitem a criação de funcionalidades complexas que não podem ser realizadas apenas com HTML, CSS e JavaScript. Exemplos de linguagens server-side incluem PHP, Python com frameworks como Django ou Flask, Ruby on Rails, Java com Spring, Node.js</p>
     </body>
 </html>
