@@ -1,7 +1,60 @@
 <!DOCTYPE html>
 <html>
-    <head>Conceitos de HTML</head>
+    <head><title>Conceitos de HTML</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            body {
+                font-family: Arial;
+                margin: 20px;
+            }
+            h1 {
+                color: #333;
+            }
+            h2 {
+                color: #333;
+            }
+            h3 {
+                color: #333;
+            }
+            p {
+                line-height: 1.6;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+
     <body>
-        <p><a href="index.html">voltar</a></p>
+         
+        <h1>Introdução ao HTML</h1>
+        <hr/>
+        <h2 id="indice">Índice</h2>
+        <ul>
+            <li><a href="#Estrutura Basica">Estrutura Básica</a></li>
+            <li><a href="#Tags">Tags</a></li>
+            <li><a href="#Atributos de tags">Atributos de Tags</a></li>
+            <li><a href="#Textos">Textos</a></li>
+            <li><a href="#Listas">Listas</a></li>
+            <li><a href="#Links">Links</a></li>
+            <br/>
+            <h3><a href="index.html">Entenda a História da Web</a></h3>
+        </ul>
+
+        <h2 id="Estrutura Basica">Estrutura Básica</h2>
+        <small><a href="#indice">(Voltar para o índice)</a></small>
+        <p>HTML, abreviação de Hypertext Markup Language, é a linguagem padrão para a criação de páginas web. A estrutura básica de um documento HTML inclui tags como <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code> e <code>&lt;body&gt;</code>. <code>&lt;html&gt;</code> define o início e o fim do documento HTML. <code>&lt;head&gt;</code> contém informações sobre o documento, como o título da página e metadados. <code>&lt;body&gt;</code> contém o conteúdo principal da página, como texto, imagens, vídeos e outros elementos.</p>
+        <h2 id="Tags">Tags</h2>
+        <p>Tags são os blocos de construção fundamentais de uma página HTML. Cada tag é identificada por seu nome entre colchetes angulares, como &lt;tag&gt;. Existem diferentes tipos de tags para diferentes finalidades, como &lt;p&gt; para parágrafos, &lt;h1&gt; a &lt;h6&gt; para títulos e &lt;ul&gt; e &lt;ol&gt; para listas.</p>
+        <h2 id="Atributos de tags">Atributos de tags</h2>
+        <p>Os atributos das tags HTML fornecem informações adicionais sobre os elementos. Eles são definidos dentro das tags com um nome e um valor, separados por um sinal de igual (=) e aspas duplas. Esses atributos podem controlar a aparência, comportamento e funcionalidade dos elementos. Existem atributos globais, que podem ser usados em qualquer elemento HTML, e atributos específicos de cada tipo de elemento.</p>
+        <h2 id="Textos">Textos.</h2>    
+        <p>O texto em HTML é normalmente envolto pela tag &lt;p&gt; para parágrafos ou pode ser inserido diretamente dentro de outras tags, como &lt;strong&gt; por exemplo.</p>
+        <h2 id="Listas">Listas</h2>
+        <p>HTML suporta dois tipos principais de listas: listas ordenadas e listas não ordenadas. Em listas ordenadas, os itens são numerados ou marcados com um símbolo específico, como números ou letras, como no exemplo abaixo. <ol><li>Item 1</li> <li>Item 2</li></ol> Em listas não ordenadas, os itens são marcados com marcadores, como pontos ou círculos. <ul><li>Item 1</li> <li>Item 2</li></ul></p>
+        <h2 id="Links">Links</h2>
+        <small><a href="#indice">(Voltar para o índice)</a></small>
+        <p>Os links em HTML são criados com a tag &lt;a&gt;, que significa âncora. O atributo href dentro da tag &lt;a&gt; especifica o URL para o qual o link aponta. Texto ou outros elementos dentro da tag &lt;a&gt; são clicáveis e levam o usuário para o URL especificado, podendo ser um redirecionamento dentro da própria página ou para um site.</p>
+
     </body>
 </html>
